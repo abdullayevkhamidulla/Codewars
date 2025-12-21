@@ -63,10 +63,63 @@
     // console.log(solution('h'));
 
 
+// 5. Convert boolean values to strings 'Yes' or 'No'.
 
-
-// function makeNegative(num) {
-//   return num < 0 ? Math.abs(num) : num  - (num * 2)
+// function boolToWord( bool ){
+//   return bool ? "Yes": "No"
 // }
 
-// console.log(makeNegative(9));
+// console.log(boolToWord(true));
+// console.log(boolToWord(false));
+
+
+// 6. Opposite number
+
+
+// function opposite(number) {
+//   //your code here
+//   return number<0 ? Math.abs(number): number - number*2
+// }
+
+// console.log(opposite(12));
+// console.log(opposite(-2));
+// console.log(opposite(0));
+
+
+// 7. Sum of positive
+
+// function positiveSum(arr) {
+    
+//     let res = 0
+//     for(let i of arr){
+//       if(i>0) res+=i
+//     }
+//     return res
+// }
+
+// console.log(positiveSum([1,2,3,4,5]));
+// console.log(positiveSum([1,-2,3,4,5]));
+// console.log(positiveSum([]));
+
+
+// 8. String repeat
+
+// function repeatStr (n, s) {
+//   return s.repeat(n)
+// }
+
+// console.log(repeatStr(4, "I"));
+// console.log(repeatStr(3, "*"));
+// console.log(repeatStr(4, "hello"));
+
+
+// 9. Remove First and Last Character
+
+// function removeChar(str){
+//  //You got this!
+//   return str.slice(1,-1)
+// };
+
+// console.log(removeChar("eloquent"));
+// console.log(removeChar("country"));
+// console.log(removeChar("place"));

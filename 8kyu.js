@@ -123,3 +123,27 @@
 // console.log(removeChar("eloquent"));
 // console.log(removeChar("country"));
 // console.log(removeChar("place"));
+
+
+
+// 10. Find the smallest integer in the array
+
+// function findSmallestInt(arr) {
+//   //your code here
+//   return Math.min(...arr)
+// }
+// console.log(findSmallestInt([78,56,232,12,8]));
+// console.log(findSmallestInt([78,56,232,412,228]));
+
+
+
+// 11. Convert a String to a Number!
+
+
+// const stringToNumber = function(str){
+//   // put your code here
+//   return +str
+// }
+
+// console.log(stringToNumber("123"));
+// console.log(stringToNumber("103"));

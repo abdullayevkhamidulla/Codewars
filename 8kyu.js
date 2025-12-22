@@ -188,3 +188,12 @@
 // console.log(greet("Shingles"));
 
 
+// 16. Keep Hydrated!
+
+// function litres(time) {
+//   return Math.floor(time/2)
+// }
+
+// console.log(litres(0));
+// console.log(litres(1));
+// console.log(litres(11.9));

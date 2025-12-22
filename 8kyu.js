@@ -158,3 +158,33 @@
 
 // console.log(greet());
 
+
+// 13. Remove String Spaces
+
+// function noSpace(x){
+//     return x.split(" ").join("")
+// }
+
+// console.log(noSpace("8 j 8   mBliB8g  imjB8B8  jl  B"));
+// console.log(noSpace("mBliB8g  imjB8B8  jl  B"));
+
+
+// 14. Convert a Boolean to a String
+
+// function booleanToString(b){
+//   return String(b)
+// }
+// console.log(booleanToString(true));
+// console.log(booleanToString(false));
+
+
+// 15. Returning Strings
+
+// function greet(name){
+//   //your code here
+//   return `Hello, ${name} how are you doing today?`
+// }
+
+// console.log(greet("Shingles"));
+
+

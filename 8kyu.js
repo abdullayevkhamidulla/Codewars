@@ -147,3 +147,14 @@
 
 // console.log(stringToNumber("123"));
 // console.log(stringToNumber("103"));
+
+
+
+/// 12. Function 1- Hello world
+
+// function greet(){
+//   return "hello world!"
+// }
+
+// console.log(greet());
+

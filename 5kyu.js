@@ -75,5 +75,20 @@
 // console.log(domainName("https://www.cnet.com"));// cnet
 
 
+function generateHashtag (str) {
+   if (!str.trim()) return false;
+
+  let res = str
+    .trim()
+    .split(/\s+/)
+    .map(item => item.charAt(0).toUpperCase() + item.slice(1))
+    .join("");
+
+  res = "#" + res;
+
+  return res.length > 140 ? false : res;
+}
+
+console.log(generateHashtag(" Hello there thanks for trying my Kata"));
 
 
